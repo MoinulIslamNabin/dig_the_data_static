@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../../assets/DtdLogo.png"; // your logo
+import logo from "../../assets/DtdLogo.png"; 
 
 export default function Navbar() {
-  const [visible, setVisible] = useState(true); // show/hide nav
-  const [scrolled, setScrolled] = useState(false); // top vs scrolled state
+  const [visible, setVisible] = useState(true); 
+  const [scrolled, setScrolled] = useState(false); 
   const lastScrollY = useRef(0);
   const ticking = useRef(false);
 
@@ -11,18 +11,16 @@ export default function Navbar() {
     const onScroll = () => {
       const current = window.scrollY;
 
-      // treat near-top (0..20px) as "at top"
       setScrolled(current > 20);
 
-      // hide when scrolling down and past 100px, show when scrolling up
       if (!ticking.current) {
         window.requestAnimationFrame(() => {
           if (current <= 0) {
             setVisible(true);
           } else if (current > lastScrollY.current && current > 100) {
-            setVisible(false); // scrolling down
+            setVisible(false); 
           } else {
-            setVisible(true); // scrolling up
+            setVisible(true); 
           }
           lastScrollY.current = current;
           ticking.current = false;
@@ -37,8 +35,7 @@ export default function Navbar() {
 
   return (
     <div
-      // fixed + high z-index so it stays above other components
-      className={`navbar fixed top-0 left-0 right-0 z-9999 lg:px-24 border-b-2 transition-all duration-300
+      className={`navbar fixed top-0 left-0 right-0 z-9999 lg:px-24 backdrop-blur-sm border-b transition-all duration-300
         ${visible ? "translate-y-0" : "-translate-y-full"}
         ${scrolled ? "bg-[#000C31]/50 border-[#1DA0E3]" : "bg-transparent border-b-transparent"}
       `}
