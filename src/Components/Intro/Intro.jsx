@@ -43,7 +43,7 @@ const Intro = () => {
               <h2 className="card-title pb-2 md:text-4xl font-bold text-xl text-white">
                 4.0
               </h2>
-              <div class="h-1 flex-1 bg-linear-to-r from-cyan-500 to-blue-500 rounded-full"></div>
+              <div className="h-1 flex-1 bg-linear-to-r from-cyan-500 to-blue-500 rounded-full"></div>
             </div>
 
             <p className="md:text-xl text-base font-semibold text-white/70">
@@ -64,24 +64,24 @@ const Intro = () => {
                 Registration Rules
               </button>
             </div>
-            <div class="grid grid-cols-3 gap-4  pt-6 border-t border-gray-700/50">
-              <div class="text-center">
-                <div class="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-[#1DA0E3] to-[#0D8ED9] mb-1">
+            <div className="grid grid-cols-3 gap-4  pt-6 border-t border-gray-700/50">
+              <div className="text-center">
+                <div className="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-[#1DA0E3] to-[#0D8ED9] mb-1">
                   4.0
                 </div>
-                <p class="text-gray-400 text-sm">Edition</p>
+                <p className="text-gray-400 text-sm">Edition</p>
               </div>
-              <div class="text-center">
-                <div class="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-[#1DA0E3] to-[#0D8ED9] mb-1">
+              <div className="text-center">
+                <div className="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-[#1DA0E3] to-[#0D8ED9] mb-1">
                   15th
                 </div>
-                <p class="text-gray-400 text-sm">Batch</p>
+                <p className="text-gray-400 text-sm">Batch</p>
               </div>
-              <div class="text-center">
-                <div class="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-[#1DA0E3] to-[#0D8ED9] mb-1">
+              <div className="text-center">
+                <div className="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-[#1DA0E3] to-[#0D8ED9] mb-1">
                   NCC
                 </div>
-                <p class="text-gray-400 text-sm">Organizer</p>
+                <p className="text-gray-400 text-sm">Organizer</p>
               </div>
             </div>
           </div>
@@ -123,10 +123,10 @@ const Intro = () => {
           </div>
         </div>
         {/* intro reg btn */}
-        <div class="mb-20 text-center transition-all duration-1000 delay-800 opacity-100 translate-y-0">
-          <div class="inline-flex items-center gap-4 px-8 py-4  bg-[#192338] border rounded-3xl border-[#1DA0E3] p-6 text-center hover:-translate-y-1 hover:shadow-[0_8px_15px_#1DA0E3]/50 transition-all duration-300 cursor-pointer">
-            <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <span class="text-gray-300 font-medium">Registration Open</span>
+        <div className="mb-20 text-center transition-all duration-1000 delay-800 opacity-100 translate-y-0">
+          <div className="inline-flex items-center gap-4 px-8 py-4  bg-[#192338] border rounded-3xl border-[#1DA0E3] p-6 text-center hover:-translate-y-1 hover:shadow-[0_8px_15px_#1DA0E3]/50 transition-all duration-300 cursor-pointer">
+            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+            <span className="text-gray-300 font-medium">Registration Open</span>
           </div>
         </div>
       </div>

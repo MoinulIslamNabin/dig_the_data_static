@@ -37,7 +37,7 @@ export default function Navbar() {
     <div
       className={`navbar fixed top-0 left-0 right-0 z-9999 lg:px-24 backdrop-blur-sm border-b transition-all duration-300
         ${visible ? "translate-y-0" : "-translate-y-full"}
-        ${scrolled ? "bg-[#000C31]/50 border-[#1DA0E3]" : "bg-transparent border-b-transparent"}
+        ${scrolled ? "bg-[#0F1623]/50 border-[#1DA0E3] shadow-[0_10px_70px_#1DA0E3]/30" : "bg-transparent border-b-transparent"}
       `}
     >
       <div className="flex navbar-start">
