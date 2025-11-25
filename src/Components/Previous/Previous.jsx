@@ -85,7 +85,7 @@ const Previous = () => {
   return (
     <div
       className="hero py-20 min-h-screen relative overflow-hidden 
-                      bg-linear-to-b from-slate-900 via-blue-900/50 to-slate-900
+                      bg-linear-to-b from-[#0D131F] via-blue-900/50 to-[#0D131F]
                       before:content-[''] before:absolute before:inset-0 
                       before:bg-[linear-gradient(#1DA0E333_1px,transparent_1px),linear-gradient(90deg,#1DA0E333_1px,transparent_1px)] 
                       before:bg-size-[20px_20px] before:opacity-30 before:pointer-events-none"
