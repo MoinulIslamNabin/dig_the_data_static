@@ -40,7 +40,7 @@ const Legacy = () => {
                     href="https://www.facebook.com/share/v/17fLL55JeP/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full btn btn-ghost md:px-6 md:py-6 bg-linear-to-l to-[#00B3FF] from-[#0077FF] border border-transparent rounded-xl md:text-lg text-xs text-white font-semibold hover:scale-110 hover:border-[#1DA0E3] hover:shadow-[0_4px_15px_#1DA0E3]/50 transition-all duration-300"
+                    className="w-full btn btn-ghost md:px-6 md:py-6 bg-linear-to-l to-[#00B3FF] from-[#0077FF] border border-transparent rounded-xl md:text-lg text-xs text-white font-semibold hover:scale-105 hover:border-[#1DA0E3] hover:shadow-[0_4px_15px_#1DA0E3]/50 transition-all duration-300"
                   >
                     (NCC) Page
                   </a>
@@ -75,7 +75,7 @@ const Legacy = () => {
                     href="https://www.facebook.com/share/v/17fLL55JeP/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full btn btn-ghost md:px-6 md:py-6 bg-linear-to-l to-[#00B3FF] from-[#0077FF] border border-transparent rounded-xl md:text-lg text-xs text-white font-semibold hover:scale-110 hover:border-[#1DA0E3] hover:shadow-[0_4px_15px_#1DA0E3]/50 transition-all duration-300"
+                    className="w-full btn btn-ghost md:px-6 md:py-6 bg-linear-to-l to-[#00B3FF] from-[#0077FF] border border-transparent rounded-xl md:text-lg text-xs text-white font-semibold hover:scale-105 hover:border-[#1DA0E3] hover:shadow-[0_4px_15px_#1DA0E3]/50 transition-all duration-300"
                   >
                     (NCC) Page
                   </a>

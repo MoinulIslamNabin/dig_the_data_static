@@ -5,6 +5,7 @@ import Intro from "./Components/Intro/Intro";
 import Event from "./Components/Event/Event";
 import Previous from "./Components/Previous/Previous";
 import Legacy from "./Components/Legacy/Legacy";
+import Ready from "./Components/Ready/Ready";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Event />
       <Previous />
       <Legacy />
+      <Ready />
     </>
   );
 }
